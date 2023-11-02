@@ -3,4 +3,112 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 12px;
 }
+
+/*stili container*/
+#wrapper-up {
+    height: calc(100vh - 10vh);
+    background-color: blue;
+    display: flex;
+}
+
+/*stile sidebar*/
+#side-bar {
+    width: 15vw;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo img {
+    max-width: 50%;
+    margin: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav {
+    text-decoration: none;
+}
+
+#nav-superiore a {
+    padding-left: 10px;
+}
+
+nav a {
+    color: grey;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 0 0 15px 15px;
+    
+}
+
+.playlist h2 {
+    color: white;
+    padding: 5px 0 0 15px;
+}
+
+#crea-playlist {
+    padding: 15px;
+}
+
+#crea-playlist a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 5px;
+}
+
+#profile{
+    color: grey;
+    margin: 0 15px;
+}
+
+#download{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+#download a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+#name-user{
+    margin-bottom: 10px;
+}
+
+#name-user a {
+    text-decoration: none;
+    color: grey;
+}
+
+/*contenitore principale*/
+#main-content {
+    flex-grow: 1;
+    height: 100%;
+    background-color: green;
+}
+
+/*stili controller*/
+#controller {
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-player{
+    width: calc(100% /);
+}
+
