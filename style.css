@@ -9,7 +9,6 @@
 /*stili container*/
 #wrapper-up {
     height: calc(100vh - 15vh);
-    background-color: blue;
     display: flex;
 }
 
