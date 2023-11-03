@@ -110,6 +110,7 @@ nav li {
     flex-grow: 1;
     height: 100%;
     background-color: rgba(20,25,34,255);
+    overflow-y: scroll;
 }
 
 header {
@@ -134,40 +135,51 @@ header a {
     color: grey;
 }
 
-#recently-played{
-    margin: 15px 7px;
+#titoli-libreria nav{
+    margin-top: 10px;
 }
 
-#recently-played h1{
+.section-library{
+    margin: 15px 7px 80px;
+}
+
+.section-library h1{
     font-size: 25px;
     color: white;
 }
 
-#recently-played-cover{
+.sub-section-library{
     display: flex;
     gap: 20px;
 }
 
-#recently-played-cover div{
+.sub-section-library div{
     width: calc(100% / 6);
     height: 30vh;
     margin-top: 15px;
 }
 
-#recently-played-cover img{
+.sub-section-library img{
     width: 100%;
     height: fit-content;
 }
 
-#recently-played-cover h2{
+.sub-section-library h2{
     color: white;
     text-align: center;
+    margin-top: 10px;
 }
 
-#recently-played-cover p{
+.sub-section-library p{
     color: grey;
     text-align: center;
 }
+
+.section-library p {
+    color: grey;
+    margin: 10px 0;
+}
+
 
 /*hover header*/
 
