@@ -91,6 +91,20 @@ nav li {
     color: grey;
 }
 
+/*hover side bar*/
+
+#nav-superiore a:hover{
+    color: white;
+}
+
+.playlist a:hover{
+    color: white;
+}
+
+#download a:hover {
+    color: white;
+}
+
 /*contenitore principale*/
 #main-content {
     flex-grow: 1;
@@ -114,9 +128,12 @@ header a {
     border-radius: 20px;
 }
 
-header div {
+/*hover header*/
 
+header a:hover {
+    padding: 15px 30px;
 }
+
 
 /*stili controller*/
 #controller {
@@ -190,13 +207,10 @@ header div {
     border: 2px white solid;
 }
 
-
-
 #right-player {
     width: 25%;
     height: 100%;
     display: flex;
-
 }
 
 #icon-right-player {
@@ -214,4 +228,12 @@ header div {
     border: 2px grey solid;
     margin: 0 15%;
     margin-top: 50px;
+}
+
+/*hover player*/
+
+#name-song p:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
 }
