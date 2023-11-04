@@ -179,6 +179,16 @@ header a {
     margin: 10px 0;
 }
 
+/*hover main-content*/
+
+#titoli-libreria a:hover{
+    color: white;
+}
+
+.played-recently img:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+}
 
 /*hover header*/
 
