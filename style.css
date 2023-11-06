@@ -14,7 +14,7 @@
 
 /*stile sidebar*/
 #side-bar {
-    width: 15vw;
+    width: 20vw;
     height: 85vh;
     background-color: black;
     display: flex;
@@ -179,6 +179,14 @@ header a {
     margin: 10px 0;
 }
 
+.played-recently i{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 5%;
+    font-size: 50px;
+    display: none;
+}
+
 /*hover main-content*/
 
 #titoli-libreria a:hover{
@@ -188,6 +196,10 @@ header a {
 .played-recently img:hover{
     cursor: pointer;
     filter: brightness(0.5);
+}
+
+.played-recently i:hover{
+    display: block;
 }
 
 /*hover header*/
@@ -309,4 +321,14 @@ header a:hover {
 
 #center-player a:hover{
     font-size: small;
+}
+
+/*mobile version*/
+
+
+@media all and (max-width: 480px) {
+    #side-bar{
+        width: 5vw;
+        
+    }
 }
