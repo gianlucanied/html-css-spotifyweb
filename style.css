@@ -118,6 +118,9 @@ header {
     background-color: rgba(0, 0, 0, 0.253);
     text-align: end;
     padding: 25px 10px 0 0;
+    position: fixed;
+    z-index: 501;
+
 }
 
 header a {
@@ -126,6 +129,11 @@ header a {
     border: 2px solid white;
     padding: 10px 25px;
     border-radius: 20px;
+    margin-right: 15%;
+}
+
+#titoli-libreria {
+    margin-top: 10%;
 }
 
 #titoli-libreria ul{
@@ -205,11 +213,11 @@ header a {
 .played-recently:hover i{
     display: block;
     cursor: pointer;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 500;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 500;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -339,5 +347,8 @@ header a:hover {
 
 
 @media all and (max-width: 780px) {
-    
+    .sub-section-library div, section{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
