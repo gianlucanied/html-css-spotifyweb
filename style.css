@@ -160,7 +160,10 @@ header a {
 
 .sub-section-library img{
     width: 100%;
-    height: fit-content;
+}
+
+.play{
+    width: 100%;
 }
 
 .sub-section-library h2{
@@ -179,10 +182,11 @@ header a {
     margin: 10px 0;
 }
 
+.played-recently{
+    position: relative;
+}
+
 .played-recently i{
-    position: absolute;
-    margin-top: 6%;
-    margin-left: 5%;
     font-size: 50px;
     display: none;
 }
@@ -193,14 +197,22 @@ header a {
     color: white;
 }
 
-.played-recently img:hover{
+.played-recently:hover img{
     cursor: pointer;
     filter: brightness(0.5);
 }
 
-.played-recently i:hover{
+.played-recently:hover i{
     display: block;
+    cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 500;
+  transform: translate(-50%, -50%);
 }
+
+
 
 /*hover header*/
 
@@ -326,9 +338,6 @@ header a:hover {
 /*mobile version*/
 
 
-@media all and (max-width: 480px) {
-    #side-bar{
-        width: 5vw;
-        
-    }
+@media all and (max-width: 780px) {
+    
 }
