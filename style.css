@@ -133,7 +133,7 @@ header a {
 }
 
 #titoli-libreria {
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 #titoli-libreria ul{
@@ -343,11 +343,23 @@ header a:hover {
     font-size: small;
 }
 
+#barra-player:hover div{
+    background-color: yellowgreen;
+}
+
+
+#volume div:hover{
+    background-color: yellowgreen;
+}
+
 /*mobile version*/
 
 
 @media all and (max-width: 780px) {
-    .sub-section-library div, section{
+    .sub-section-library div{
+        width: calc(100% / 4);
+        height: 30vh;
+        margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
     }
