@@ -158,11 +158,12 @@ header a {
 .sub-section-library{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .sub-section-library div{
-    width: calc(100% / 6);
-    height: 30vh;
+    width: calc((100% / 6) - 20px);
+    height: auto;
     margin-top: 15px;
 }
 
@@ -215,12 +216,10 @@ header a {
     cursor: pointer;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 37%;
     z-index: 500;
     transform: translate(-50%, -50%);
 }
-
-
 
 /*hover header*/
 
@@ -356,11 +355,9 @@ header a:hover {
 
 
 @media all and (max-width: 780px) {
-    .sub-section-library div{
+    .played-recently{
         width: calc(100% / 4);
-        height: 30vh;
+        height: auto;
         margin-top: 15px;
-        display: flex;
-        flex-wrap: wrap;
     }
 }
